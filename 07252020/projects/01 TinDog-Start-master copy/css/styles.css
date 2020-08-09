@@ -1,0 +1,195 @@
+/* GLOBAL */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* NAVIGATION BAR */
+
+#logo {
+  font-weight: 400;
+  size: 3rem;
+  line-height: 1.5;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+#logo {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.nav-btn {
+  font-size: 1.75rem;
+  font-weight: 300;
+  padding: 0 10px;
+}
+
+/* LANDING PAGE */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  width: 100%;
+  height: 75vh;
+  text-align: left;
+}
+
+.download-button {
+  margin: 5% 3%;
+}
+
+/* TITLE IMAGE */
+
+.pup-phone {
+  transform: rotate(10deg);
+  width: 60%;
+  margin-left: 15%;
+  position: absolute;
+}
+
+@media (max-width: 1028px) { 
+  .pup-phone {
+    transform: rotate(0);
+    width: 60%;
+    margin: 0;
+    position: static;
+  }
+  #title {
+    height: 75vh;
+  }
+  .testimonial-text {
+    font-size: 1.5rem;
+  }
+  .price-heading {
+    font-size: 2.5rem;
+  }
+}
+
+/* FEATURES */
+
+#features {
+  padding: 7% 15%;
+  background-color: rgba(255, 255, 255, 0.95);
+  position: relative;
+}
+
+.feature-icon {
+  color: #ff899a;
+  font-size: 3rem;
+  margin: 15px;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+#features h3 {
+  size: 1.5rem;
+  font-weight: bold;
+}
+
+#features p {
+  color: #686868;
+}
+
+/* <!-- Testimonials & PRESS--> */
+
+#testimonials {
+  background-color: #ff899a;
+  color: white;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.test-img {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ff899a;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* PRICING */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.price-cat {
+  margin: 0;
+}
+
+.price-cost {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+.card-body {
+  height: 325px;
+}
+
+
+/* CTA */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15%;
+}
+
+.footer-title {
+  color: white;
+  size: 1.5rem;
+  font-weight: bold;
+  padding: 10% auto 0;
+}
+
+/* FOOTER */
+
+#footer {
+  margin: 5%;
+}
+
+.foot-icon {
+  font-size: 2rem;
+  padding: 2%;
+}
+
+.foot-icon:hover {
+  color: #ff4c68;
+}

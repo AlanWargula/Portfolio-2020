@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description content="example">
+        <meta name=viewport content='width=device-width'>
+        <link id="stylesheet" rel="stylesheet" type="text/css" href="norm-calc-light.css">
+        <title></title>
+    </head>
+    <body id="container">
+        <form action="" class="calculator" name="calc">
+            <input type="text" name="txt" class="value" readonly>
+            <button type="button" class="clear" onclick="document.calc.txt.value = ''">clear</button>
+            <button class="theme" type="button" onclick="color()">switch theme</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '7'">7</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '8'">8</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '9'">9</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '/'">/</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '4'">4</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '5'">5</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '6'">6</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '*'">x</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '1'">1</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '2'">2</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '3'">3</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '-'">-</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '0'">0</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '00'">00</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '.'">.</button>
+            <button type="button" class="num" onclick="document.calc.txt.value += '+'">+</button>
+            <button type="button" class="equal" onclick="document.calc.txt.value = eval(calc.txt.value)">=</button>
+          </form>
+        </div>
+    </body>
+    <script src='norm-calc.js'></script>
+</html>

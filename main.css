@@ -115,7 +115,7 @@ h1 {
 }
 
 .carousel img {
-    height: 100%;
+  height: 100%;
 }
 
 .carousel-caption:hover {
@@ -123,7 +123,6 @@ h1 {
   z-index: 10;
   background: rgba(0, 0, 0, 0.85);
   border-radius: 3px;
-
 }
 
 /* Declare heights because of positioning of img element */
@@ -138,20 +137,17 @@ h1 {
   height: 32rem;
 }
 
-
 /* Projects */
 
-
 .card-body {
-    color: black;
+  color: black;
 }
 .card:hover {
-    box-shadow: 0 0 5px rgba(33,33,33,.5);
-    transform: scale(1.025);
-    transition: all 0.3s ease-in-out;
-    z-index: 2;
+  box-shadow: 0 0 5px rgba(33, 33, 33, 0.5);
+  transform: scale(1.01);
+  transition: all 0.1s ease-in-out;
+  z-index: 2;
 }
-
 
 /*
  * Footer
@@ -185,7 +181,6 @@ h1 {
   #home-btn {
     visibility: hidden;
   }
-
 
   .skill-icons {
     display: grid;
@@ -226,4 +221,3 @@ h1 {
     line-height: 1.4;
   }
 }
-
